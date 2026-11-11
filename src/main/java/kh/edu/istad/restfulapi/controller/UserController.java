@@ -30,8 +30,7 @@ public class UserController {
     public UserResponse create(@RequestBody UserCreateRequest userCreateRequest) {
         return userService.create(userCreateRequest);
     }
-
-
+    // home
     @GetMapping
     public List<UserResponse> getAll() {
         return userService.getAll();
