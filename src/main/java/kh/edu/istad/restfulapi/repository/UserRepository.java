@@ -13,13 +13,13 @@ public class UserRepository {
     private final List<User> users;
 
     public UserRepository() {
-        User user1 = new User(UUID.randomUUID(), "admin", "qwer", "Administrator", true);
-        User user2 = new User(UUID.randomUUID(), "editor", "qwer", "Editor", true);
-        User user3 = new User(UUID.randomUUID(), "customer", "qwer", "Chan Dara", true);
+        //User user1 = new User(UUID.randomUUID(), "admin", "qwer", "Administrator", true);
+        //User user2 = new User(UUID.randomUUID(), "editor", "qwer", "Editor", true);
+        //User user3 = new User(UUID.randomUUID(), "customer", "qwer", "Chan Dara", true);
         users = new ArrayList<>();
-        users.add(user1);
-        users.add(user2);
-        users.add(user3);
+        //users.add(user1);
+        //users.add(user2);
+        //users.add(user3);
     }
 
     public List<User> selectAll() {
